@@ -1,0 +1,8 @@
+# Define the lambda function to compute the cube of a number
+cube = lambda x: x**3
+
+# Use the sum() function with a generator expression to calculate the sum of cubes from n=2 to n=9
+year2024 = sum(cube(n) for n in range(2, 10))
+
+# Print the result
+print('Welcome to year', year2024)
